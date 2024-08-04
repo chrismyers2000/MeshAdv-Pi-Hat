@@ -1,6 +1,8 @@
 # MeshAdv Pi Hat
 
-The MeshAdv Pi Hat is a 1 Watt Raspberry Pi hat designed to be used with the Linux-native version of Meshtastic known as meshtasticd. The board includes space for a GPS module and breakout for I2C bus. This hat is experimental at this point.
+The MeshAdv Pi Hat is a 1 Watt Raspberry Pi hat designed to be used with the Linux-native version of Meshtastic known as meshtasticd. The board includes space for a GPS module and breakout for I2C bus. 
+This make for a good "base station" or "Router" node that can be mounted high on a pole and powered over POE (using separate POE adapter). No more need to retrieve the node everytime you want to update firmware, it can all be done remotely. It also makes it easy and reliable to connect to MQTT. 
+This hat is experimental at this point.
 
 ![https://github.comMeshAdv Pi Hat/V1.0/Photos/3D Top.png)](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/d284307009050c0d9ed418b5709d0a8eee448441/V1.0/Photos/3D%20Top.png)
 
@@ -22,8 +24,8 @@ https://meshtastic.org/docs/software/linux-native/
 In /etc/meshtasticd/config.yaml, add or uncomment the following lines as needed.
 ```yaml
 Lora:
-  Module: sx1262  # Ebyte E22-900M30S choose only one module at a time
-# Module: sx1268  # Ebyte E22 400M33S
+  Module: sx1262  # Ebyte E22-900M30S and E22-900M33S choose only one module at a time
+# Module: sx1268  # Ebyte E22 400M30S and E22-400M33S
   CS: 21
   IRQ: 16
   Busy: 20
