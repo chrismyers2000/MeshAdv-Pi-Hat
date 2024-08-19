@@ -1,12 +1,15 @@
 # MeshAdv Pi Hat
 
 The MeshAdv Pi Hat is a 1 Watt Raspberry Pi hat designed to be used with the Linux-native version of Meshtastic known as meshtasticd. The board includes space for a GPS module and breakout for I2C bus. 
-This makes for a good "base station" or "Router" node that can be mounted high on a pole and powered over POE (using separate POE adapter). No more need to retrieve the node everytime you want to update firmware, it can all be done remotely. It also makes it easy and reliable to connect to MQTT. 
+This makes for a good "base station" or "Router" node that can be mounted high on a pole and powered over POE (using separate POE adapter). No more need to retrieve the node everytime you want to update firmware, it can all be done remotely. It also makes it easy and reliable to connect to MQTT.
+
+I have now created a version without the SMA connector. See: No ANT version, it uses a 2 layer board design so it will be cheaper to produce.
+
 This hat is experimental at this point.
 
 Some PCB's may be available here: https://frequencylabs.etsy.com
 
-![https://github.comMeshAdv Pi Hat/V1.0/Photos/3D Top.png)](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/d284307009050c0d9ed418b5709d0a8eee448441/V1.0/Photos/3D%20Top.png)
+![https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/d284307009050c0d9ed418b5709d0a8eee448441/V1.0/Photos/3D%20Top.png](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/35869d5601d5c5913d70c89a0aa07a239f7284cc/V1.1/Photos/3D_PCB%20V1.1_Top.png)
 
 # Info
 
