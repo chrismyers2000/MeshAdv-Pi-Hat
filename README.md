@@ -9,7 +9,7 @@ This hat is experimental at this point.
 
 Some PCB's may be available here: https://frequencylabs.etsy.com
 
-![https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/d284307009050c0d9ed418b5709d0a8eee448441/V1.0/Photos/3D%20Top.png](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/35869d5601d5c5913d70c89a0aa07a239f7284cc/V1.1/Photos/3D_PCB%20V1.1_Top.png)
+![](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/59894d51a795f8fb1f77ec938dc08c1ba0d42391/V1.1/Photos/3D_PCB%20V1.1_Top.png)
 
 # Info
 
