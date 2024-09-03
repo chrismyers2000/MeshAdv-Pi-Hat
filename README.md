@@ -6,7 +6,7 @@ This makes for a good "base station" or "Router" node that can be mounted high o
 I have now created a version without the SMA connector. See: No ANT version, it uses a 2 layer board design so it will be cheaper to produce.
 
 - V1.0 is tested and 100% works. Please note, the GPS header is supplied with 5V on this version. Output on the E22 has been measured at 29.3dbm in my tests.
-- V1.1 is currently untested, I added a voltage selector for the GPS header to choose between 3.3V and 5V. Please solder the pads on J3 for the corresponding voltage you wish to use.
+- V1.1 is currently untested.
 
 Some PCB's may be available here: https://frequencylabs.etsy.com
 
@@ -15,6 +15,8 @@ Some PCB's may be available here: https://frequencylabs.etsy.com
 # Info
 
 == NOTICE!! always have an antenna connected to the Hat when powered on, failure to do so can damage the E22 module. ==
+
+To use the GPS you must select your voltage using J3. Solder together the desired pads (Left+Center for 3.3V and Right+Center for 5V)
 
 Watch this video first: [How to install Meshtastic on Raspberry Pi](https://www.youtube.com/watch?v=vLGoEPNT0Mk)
 
@@ -26,6 +28,7 @@ https://meshtastic.org/docs/software/linux-native/
 
 
 # Configuration
+
 
 In /etc/meshtasticd/config.yaml, add or uncomment the following lines as needed.
 ```yaml
