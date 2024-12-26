@@ -8,7 +8,7 @@ I have now created a version without the SMA connector. See: No ANT version, it 
 - V1.0 is tested and 100% works. Please note, the GPS header is supplied with 5V on this version. Output on the E22 has been measured at 29.3dbm in my tests.
 - V1.1 is tested and 100% works.
 
-Some PCB's may be available here: https://frequencylabs.etsy.com In Stock!
+Some PCB's may be available here: https://frequencylabs.etsy.com Out of Stock! Check back in 1-2 weeks. New batch has been ordered!
 
 ![](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/38716f06be6e8867a65c0815f295fbd1433ee2e0/V1.1/Photos/3D_PCB%20V1.1_Top.png)
 
