@@ -16,7 +16,7 @@ Some PCB's may be available here: https://frequencylabs.etsy.com Out of Stock! C
 
 == NOTICE!! always have an antenna connected to the Hat when powered on, failure to do so can damage the E22 module. ==
 
-To use the GPS you must select your voltage using J3. Solder together the desired pads (Left+Center for 3.3V and Right+Center for 5V)
+To use the GPS you must select your voltage using J3. Solder together the desired pads (Left+Center for 3.3V and Right+Center for 5V) On V1.0, GPS voltage is fixed at 5V. The recommended GPS module is the ATGM336H.
 
 Watch this video first: [How to install Meshtastic on Raspberry Pi](https://www.youtube.com/watch?v=vLGoEPNT0Mk)
 
