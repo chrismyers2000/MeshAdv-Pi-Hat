@@ -10,13 +10,17 @@ I have now created a version without the SMA connector. See: No ANT version, it 
 
 Some PCB's may be available here: https://frequencylabs.etsy.com Out of Stock! Check back in 1-2 weeks. New batch has been ordered!
 
-![](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/38716f06be6e8867a65c0815f295fbd1433ee2e0/V1.1/Photos/3D_PCB%20V1.1_Top.png)
+![](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/2fb02e426bd7faad89f40714b303855255108235/V1.1/SMA/Photos/3D_PCB%20V1.1_SMA_Top.png)
 
 # Info
 
 == NOTICE!! always have an antenna connected to the Hat when powered on, failure to do so can damage the E22 module. ==
 
-To use the GPS you must select your voltage using J3. Solder together the desired pads (Left+Center for 3.3V and Right+Center for 5V) On V1.0, GPS voltage is fixed at 5V. The recommended GPS module is the ATGM336H.
+To use the GPS you must select your voltage using J3. Use the jumpers or solder together the desired pads (Left+Center for 3.3V and Right+Center for 5V) On V1.0, GPS voltage is fixed at 5V. The recommended GPS module is the ATGM336H which requires 5v.
+
+Starting 1/1/25 all V1.1 boards will have GPS PPS routed to GPIO 23 (pin 16). 
+
+# Installing Meshtasticd
 
 Watch this video first: [How to install Meshtastic on Raspberry Pi](https://www.youtube.com/watch?v=vLGoEPNT0Mk)
 
