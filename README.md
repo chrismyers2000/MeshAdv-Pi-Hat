@@ -10,7 +10,7 @@ I have now created a version without the SMA connector. See: No ANT version, it 
 
 Some PCB's may be available here: https://frequencylabs.etsy.com New batch has arrived!
 
-![](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/2fb02e426bd7faad89f40714b303855255108235/V1.1/SMA/Photos/3D_PCB%20V1.1_SMA_Top.png)
+![](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/d43ea52d606c9e0167098d327dad065feb6ee043/V1.1/IPEX/Photos/3D_PCB%20V1.1_Top_IPEX.png)
 
 # Info
 
