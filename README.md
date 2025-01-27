@@ -5,7 +5,7 @@ This makes for a good "base station" or "Router" node that can be mounted high o
 
 I have now created a version without the SMA connector. See: No ANT version, it uses a 2 layer board design so it will be cheaper to produce.
 
-- V1.0 is tested and 100% works. Please note, the GPS header is supplied with 5V on this version. Output on the E22 has been measured at 29.3dbm in my tests.
+- V1.0 is tested and 100% works. Please note, the GPS header is supplied with 5V on this version. Output on the E22 has been measured at 29.3dbm in my tests when `lora.tx_power` is set to 22.
 - V1.1 is tested and 100% works.
 
 Some PCB's may be available here: https://frequencylabs.etsy.com New batch has arrived!
