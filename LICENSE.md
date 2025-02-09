@@ -1,34 +1,28 @@
-# TAPR Open Hardware License (OHL) Version 1.0 - Non-Commercial  
-## For "MeshADV Pi-Hat" by FrequencyLabs  
+# FrequencyLabs Hardware License v1.0
 
-**Preamble**  
-The TAPR Open Hardware License is designed to provide a way for open hardware designers to release their work to the public under terms that allow for personal use, modification, and sharing, while prohibiting commercial use without permission. By using this license, the author retains commercial rights but allows others to use, study, and share the design for non-commercial purposes.  
+## **Preamble**  
+This license governs the use, distribution, and reproduction of the hardware design files provided by FrequencyLabs. The goal of this license is to allow individuals to use and share the hardware while maintaining the integrity of the original design.  
 
-## Terms and Conditions  
+## **1. Permissions**  
+Under this license, you are free to:  
+- **Use** — You may use the hardware design for personal and non-commercial purposes.  
+- **Copy & Redistribute** — You may reproduce and distribute the design files **without modifications** as long as you comply with the terms of this license.  
 
-1. **Definitions**  
-   - **Licensed Work**: "MeshADV Pi-Hat" by FrequencyLabs, including all design files, schematics, source code, documentation, and any modifications made by others.
-   - **You**: The individual or organization in possession of the Licensed Work.
-   - **Non-Commercial**: Use that is not primarily intended for or directed toward commercial advantage or monetary compensation.  
+## **2. Restrictions**  
+You **may not**:  
+- **Modify** — You may not alter, remix, or create derivative works based on this hardware design.  
+- **Use for Commercial Purposes** — You may not sell or use this hardware for commercial gain without explicit written permission from FrequencyLabs.  
 
-2. **Grant of License**  
-   Subject to the terms and conditions of this License, the Licensor (FrequencyLabs) hereby grants You a worldwide, royalty-free, non-exclusive license to use, reproduce, modify, and distribute the Licensed Work for personal and non-commercial purposes.  
+## **3. Attribution**  
+- You must give appropriate credit to FrequencyLabs as the original creator of the hardware.  
+- You must retain all copyright notices and this license in any copies or distributions of the design files.  
 
-3. **Non-Commercial Use Only**  
-   You may not use the Licensed Work, in whole or in part, for any commercial purpose without prior written permission from the Licensor.  
+## **4. No Warranty**  
+This hardware design is provided **"as-is"**, without any warranties or guarantees of any kind. The author is not responsible for any damages or liabilities resulting from its use.  
 
-4. **Attribution**  
-   You must retain all copyright notices, acknowledgments, and trademarks in all copies of the Licensed Work and any derivative works, ensuring appropriate attribution to the original author (FrequencyLabs).  
+## **5. Additional Terms**  
+- You may not impose any additional restrictions that limit others from exercising the rights granted by this license.  
+- Any attempt to modify, sublicense, or re-license this design under a different license is prohibited.  
 
-5. **Share-Alike Requirement**  
-   If You distribute copies or modified versions of the Licensed Work, You must include this same License in the distribution and keep it non-commercial.  
-
-6. **No Warranty**  
-   The Licensed Work is provided "as is," without warranty of any kind, express or implied. The Licensor shall not be held liable for any damages arising from the use of the Licensed Work.  
-
-7. **Termination**  
-   This License is perpetual, but Your rights under it will terminate automatically if You breach its terms.  
-
----
-
-By using, copying, or modifying "MeshADV Pi-Hat" under these terms, You acknowledge and agree to comply with this license.
+## **6. Contact**  
+For commercial licensing or special permissions, please contact FrequencyLabs.  
