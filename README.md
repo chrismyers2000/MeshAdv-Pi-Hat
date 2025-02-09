@@ -20,6 +20,29 @@ To use the GPS you must select your voltage using J3. Use the jumpers or solder 
 
 Starting 1/1/25 all V1.1 boards will have GPS PPS routed to GPIO 23 (pin 16). 
 
+# Compatibility
+
+| Raspberry Pi Model      | Working? |
+|-------------------------|----------|
+| Raspberry Pi 1 Model A  | No       |
+| Raspberry Pi 1 Model A+ | No       |
+| Raspberry Pi 1 Model B  | No       |
+| Raspberry Pi 1 Model B+ | No       |
+| Raspberry Pi 2 Model B  | ???      |
+| Raspberry Pi 3 Model B  | ???      |
+| Raspberry Pi 3 Model B+ | Yes      |
+| Raspberry Pi 3 Model A+ | Yes      |
+| Raspberry Pi 4 Model B  | Yes      |
+| Raspberry Pi 400        | Yes      |
+| Raspberry Pi 5          | Yes      |
+| Raspberry Pi 500        | Yes      |
+| Raspberry Pi Zero       | Yes      |
+| Raspberry Pi Zero W     | Yes      |
+| Raspberry Pi Zero 2 W   | Yes      |
+| Raspberry Pi Pico       | Never    |
+| Raspberry Pi Pico W     | Never    |
+
+
 # Installing Meshtasticd
 
 Watch this video first: [How to install Meshtastic on Raspberry Pi](https://www.youtube.com/watch?v=vLGoEPNT0Mk)
