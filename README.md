@@ -45,16 +45,18 @@ Starting 1/1/25 all V1.1 boards will have GPS PPS routed to GPIO 23 (pin 16).
 
 # Installing Meshtasticd
 
-Watch this video first: [How to install Meshtastic on Raspberry Pi](https://www.youtube.com/watch?v=vLGoEPNT0Mk)
+~~Watch this video first: [How to install Meshtastic on Raspberry Pi](https://www.youtube.com/watch?v=vLGoEPNT0Mk)~~ This video covers the old method, still a good video but out of date.
 
-I followed the video exactly and had no problems. I was using a Raspberry Pi Zero 2 W running 64bit Raspberry Pi OS Debian Bookworm. Using the official "Raspberry Pi Imager" makes this very easy.
 
-https://meshtastic.org/docs/hardware/devices/linux-native-hardware/
+Official installation instructions: [https://meshtastic.org/docs/hardware/devices/linux-native-hardware/]
 
-https://meshtastic.org/docs/software/linux-native/
 
 
 # Configuration
+
+Click here for the new configuration method: [https://meshtastic.org/docs/hardware/devices/linux-native-hardware/#configuration]
+
+The old method is below and still works if you prefer it
 
 
 In /etc/meshtasticd/config.yaml, add or uncomment the following lines as needed.
