@@ -24,12 +24,12 @@ Starting 1/1/25 all V1.1 boards will have GPS PPS routed to GPIO 23 (pin 16).
 
 | Raspberry Pi Model      | Working? |
 |-------------------------|----------|
-| Raspberry Pi 1 Model A  | No       |
-| Raspberry Pi 1 Model A+ | No       |
-| Raspberry Pi 1 Model B  | No       |
-| Raspberry Pi 1 Model B+ | No       |
-| Raspberry Pi 2 Model B  | ???      |
-| Raspberry Pi 3 Model B  | ???      |
+| Raspberry Pi 1 Model A  | Never*   |
+| Raspberry Pi 1 Model A+ | ???      |
+| Raspberry Pi 1 Model B  | Never*   |
+| Raspberry Pi 1 Model B+ | ???      |
+| Raspberry Pi 2 Model B  | Yes      |
+| Raspberry Pi 3 Model B  | Yes      |
 | Raspberry Pi 3 Model B+ | Yes      |
 | Raspberry Pi 3 Model A+ | Yes      |
 | Raspberry Pi 4 Model B  | Yes      |
@@ -39,9 +39,10 @@ Starting 1/1/25 all V1.1 boards will have GPS PPS routed to GPIO 23 (pin 16).
 | Raspberry Pi Zero       | Yes      |
 | Raspberry Pi Zero W     | Yes      |
 | Raspberry Pi Zero 2 W   | Yes      |
-| Raspberry Pi Pico       | Never    |
-| Raspberry Pi Pico W     | Never    |
+| Raspberry Pi Pico       | Never*   |
+| Raspberry Pi Pico W     | Never*   |
 
+*Raspberry Pi `1 Model A`, `1 Model B`, and `Pico` do not implement the 40-pin layout used in the MeshAdv Pi Hat.
 
 # Installing Meshtasticd
 
@@ -71,6 +72,7 @@ Lora:
   TXen: 13
   RXen: 12
   DIO3_TCXO_VOLTAGE: true
+  # SX126X_MAX_POWER: 8  # 8=33dBm output. Ebyte E22-900M33S and E22-400M33S only
 
 GPS:
   SerialPath: /dev/ttyS0
