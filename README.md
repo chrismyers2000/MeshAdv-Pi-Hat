@@ -14,6 +14,29 @@ Some PCB's may be available here: https://frequencylabs.etsy.com New batch has a
 
 # Info
 
+|Pin# |GPIO|Pin Name   |Description            |   |   |Pin# |GPIO|Pin Name   |Description                      |
+|-----|----|-----------|-----------------------|---|---|-----|----|-----------|---------------------------------|
+|1    |    |3.3V       |                       |   |   |2    |    |5V         |                                 |
+|3    |2   |SDA        |(I2C)                  |   |   |4    |    |5V         |                                 |
+|5    |3   |SCL        |(I2C)                  |   |   |6    |    |GND        |                                 |
+|7    |4   |Unused     |                       |   |   |8    |14  |UART TX    |(GPS)RX                          |
+|9    |    |GND        |                       |   |   |10   |15  |UART RX    |(GPS)TX                          |
+|11   |17  |Unused     |                       |   |   |12   |18  |RST        |(LoRa)                           |
+|13   |27  |Unused     |                       |   |   |14   |    |GND        |                                 |
+|15   |22  |Unused     |                       |   |   |16   |23  |PPS        |(GPS) Pulse Per Second           |
+|17   |    |3.3V       |                       |   |   |18   |24  |Unused     |                                 |
+|19   |10  |MOSI       |(LoRa) SPI             |   |   |20   |    |GND        |                                 |
+|21   |9   |MISO       |(LoRa) SPI             |   |   |22   |25  |Unused     |                                 |
+|23   |11  |CLK        |(LoRa) SPI             |   |   |24   |8   |Unused     |                                 |
+|25   |    |GND        |                       |   |   |26   |7   |Unused     |                                 |
+|27   |0   |Unused     |                       |   |   |28   |1   |Unused     |                                 |
+|29   |5   |Unused     |                       |   |   |30   |    |GND        |                                 |
+|31   |6   |Unused     |                       |   |   |32   |12  |RXEN       |(LoRa) Recieve Enable            |
+|33   |13  |TXEN       |(LoRa) Transmit Enable |   |   |34   |    |GND        |                                 |
+|35   |19  |Unused     |                       |   |   |36   |16  |IRQ        |(LoRa)                           |
+|37   |26  |Unused     |                       |   |   |38   |20  |BUSY       |(LoRa)                           |
+|39   |    |GND        |                       |   |   |40   |21  |NSS        |(LoRa)                           |
+
 == NOTICE!! always have an antenna connected to the Hat when powered on, failure to do so can damage the E22 module. ==
 
 To use the GPS you must select your voltage using J3. Use the jumpers or solder together the desired pads (Left+Center for 3.3V and Right+Center for 5V) On V1.0, GPS voltage is fixed at 5V. The recommended GPS module is the ATGM336H which requires 5v.
