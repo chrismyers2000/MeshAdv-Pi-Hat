@@ -99,6 +99,7 @@ Lora:
 
 GPS:
   SerialPath: /dev/ttyS0
+#  SerialPath: /dev/ttyAMA0 # For Raspberry Pi 5
 
 I2C:
   I2CDevice: /dev/i2c-1
