@@ -8,7 +8,7 @@ I have now created a version without the SMA connector. See: No ANT version, it 
 - V1.0 is tested and 100% works. Please note, the GPS header is supplied with 5V on this version. Output on the E22 has been measured at 29.3dbm in my tests when `lora.tx_power` is set to 22.
 - V1.1 is tested and 100% works.
 
-Some PCB's may be available here: https://frequencylabs.etsy.com New batch has arrived!
+Fully assembled units will be available here: https://frequencylabs.etsy.com 
 
 ![](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/d43ea52d606c9e0167098d327dad065feb6ee043/V1.1/IPEX/Photos/3D_PCB%20V1.1_Top_IPEX.png)
 
@@ -78,12 +78,23 @@ Official installation instructions: [https://meshtastic.org/docs/hardware/device
 
 # Configuration
 
-Click here for the new configuration method: [https://meshtastic.org/docs/hardware/devices/linux-native-hardware/#configuration]
+These instructions assume you are using a raspberry pi with Raspberry Pi OS. 
 
-The old method is below and still works if you prefer it
+## New Method:
+
+   - As methods keep changing, please [CLICK HERE](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/#configuration) for the most up to date configuration process
+
+---
+## Old Method:
+
+   - The old method is below and still works if you prefer it
 
 
-In /etc/meshtasticd/config.yaml, add or uncomment the following lines as needed.
+```bash
+sudo nano /etc/meshtasticd/config.yaml
+```
+add or uncomment the following lines as needed. 
+
 ```yaml
 Lora:
   Module: sx1262  # Ebyte E22-900M30S and E22-900M33S choose only one module at a time
@@ -114,4 +125,6 @@ Webserver:
 General:
   MaxNodes: 200
 ```
+## LoRa Setup:
 
+- You must now set the LoRa Region to be able to start using Meshtastic. [CLICK HERE](https://meshtastic.org/docs/getting-started/initial-config/#set-regional-settings) for info on how to set region settings. Please note: Linux-Native is currently unable to connect over bluetooth or to the Apple app. All other methods are working. 
