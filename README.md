@@ -3,14 +3,13 @@
 The MeshAdv Pi Hat is a 1 Watt Raspberry Pi hat designed to be used with the Linux-native version of Meshtastic known as meshtasticd. The board includes space for a GPS module and breakout for I2C bus. 
 This makes for a good "base station" or "Router" node that can be mounted high on a pole and powered over POE (using separate POE adapter). No more need to retrieve the node everytime you want to update firmware, it can all be done remotely. It also makes it easy and reliable to connect to MQTT.
 
-I have now created a version without the SMA connector. See: No ANT version, it uses a 2 layer board design so it will be cheaper to produce.
-
-- V1.0 is tested and 100% works. Please note, the GPS header is supplied with 5V on this version. Output on the E22 has been measured at 29.3dbm in my tests when `lora.tx_power` is set to 22.
-- V1.1 is tested and 100% works.
+---
 
 Fully assembled units will be available here: https://frequencylabs.etsy.com 
 
 ![](https://github.com/chrismyers2000/MeshAdv-Pi-Hat/blob/d43ea52d606c9e0167098d327dad065feb6ee043/V1.1/IPEX/Photos/3D_PCB%20V1.1_Top_IPEX.png)
+
+== NOTICE!! always have an antenna connected to the Hat when powered on, failure to do so can damage the E22 module. ==
 
 # Info
 
@@ -37,11 +36,8 @@ Fully assembled units will be available here: https://frequencylabs.etsy.com
 |37   |26  |Unused     |                       |   |   |38   |20  |BUSY       |(LoRa)                           |
 |39   |    |GND        |                       |   |   |40   |21  |NSS        |(LoRa)                           |
 
-== NOTICE!! always have an antenna connected to the Hat when powered on, failure to do so can damage the E22 module. ==
 
-To use the GPS you must select your voltage using J3. Use the jumpers or solder together the desired pads (Left+Center for 3.3V and Right+Center for 5V) On V1.0, GPS voltage is fixed at 5V. The recommended GPS module is the ATGM336H which requires 5v.
 
-Starting 1/1/25 all V1.1 boards will have GPS PPS routed to GPIO 23 (pin 16). 
 
 # Compatibility
 
@@ -127,4 +123,11 @@ General:
 ```
 ## LoRa Setup:
 
-- You must now set the LoRa Region to be able to start using Meshtastic. [CLICK HERE](https://meshtastic.org/docs/getting-started/initial-config/#set-regional-settings) for info on how to set region settings. Please note: Linux-Native is currently unable to connect over bluetooth or to the Apple app. All other methods are working. 
+- You must now set the LoRa Region to be able to start using Meshtastic. [CLICK HERE](https://meshtastic.org/docs/getting-started/initial-config/#set-regional-settings) for info on how to set region settings. Please note: Linux-Native is currently unable to connect over bluetooth or to the Apple app. All other methods are working.
+
+# GPS
+   
+   - The recommended GPS is the ATGM336H module. With it you can utilize the PPS output for very precise time keeping, useful for running an NTP server alongside Meshtastic.
+   - You can use any GPS that outputs NMEA sentences using UART. 3.3V and 5V modules can be used by moving jumper J3 to the correct position. 
+   - Start by following the official instructions to get the GPS working with meshtasticd [CLICK HERE](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/#uart-raspberry-pi)
+   - PPS output: Starting 1/1/25 all V1.1 boards have GPS PPS routed to GPIO 23 (pin 16).
