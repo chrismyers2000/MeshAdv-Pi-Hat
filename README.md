@@ -126,8 +126,9 @@ General:
 - You must now set the LoRa Region to be able to start using Meshtastic. [CLICK HERE](https://meshtastic.org/docs/getting-started/initial-config/#set-regional-settings) for info on how to set region settings. Please note: Linux-Native is currently unable to connect over bluetooth or to the Apple app. All other methods are working.
 
 # GPS
-   
+
+   - Jumper J3 is used to select either 3.3v or 5v to the GPS 
    - The recommended GPS is the ATGM336H module. With it you can utilize the PPS output for very precise time keeping, useful for running an NTP server alongside Meshtastic.
-   - You can use any GPS that outputs NMEA sentences using UART. 3.3V and 5V modules can be used by moving jumper J3 to the correct position. 
+   - You can use any GPS that outputs NMEA sentences using UART. 
    - Start by following the official instructions to get the GPS working with meshtasticd [CLICK HERE](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/#uart-raspberry-pi)
    - PPS output: Starting 1/1/25 all V1.1 boards have GPS PPS routed to GPIO 23 (pin 16).
