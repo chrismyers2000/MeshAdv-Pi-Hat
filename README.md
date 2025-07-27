@@ -65,7 +65,8 @@ Fully assembled units will be available here: https://frequencylabs.etsy.com
 
 # Installing Meshtasticd
 
-You can try my new [Configuration Tool](https://github.com/chrismyers2000/MeshAdv-Mini/tree/main/Data/Misc/Installer%20Scripts), It can install and configure everything you need to get up and running, otherwise continue below with the official instructions.
+You can try my new [Configuration Tool](https://github.com/chrismyers2000/MeshAdv-Mini/tree/main/Data/Misc/Installer%20Scripts), It can install and configure everything you need to get up and running, otherwise continue below with the official instructions. 
+Please note: The MeshAdv Pi Hat does not have the HAT+ eeprom, so you will see no hat detected....this is normal.
 ![](https://github.com/chrismyers2000/MeshAdv-Mini/blob/24ac04f407f8a426a3110621deaba4fc5ec1a832/Data/Misc/ConfigTool1.png)
 
 ~~Watch this video first: [How to install Meshtastic on Raspberry Pi](https://www.youtube.com/watch?v=vLGoEPNT0Mk)~~ This video covers the old method, still a good video but out of date.
